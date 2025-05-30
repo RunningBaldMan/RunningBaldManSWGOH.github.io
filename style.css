@@ -1,11 +1,16 @@
 body {
     background-color: black;
     background-image: url("RBM.WEBP");
-        opacity: 1;
-        
+          
     
 }
 
 .container { 
-    color: aqua;
+   color: aqua;font-weight: bold;
+}
+
+
+.h1 {
+    color: white; font-weight: bold;
+    text-align: center;
 }
