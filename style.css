@@ -1,7 +1,11 @@
 body {
     background-color: black;
-    background-image: url("swgoh.PNG");
-        opacity: 7.5;
+    background-image: url("RBM.WEBP");
+        opacity: 1;
         
+    
 }
 
+.container { 
+    color: aqua;
+}
