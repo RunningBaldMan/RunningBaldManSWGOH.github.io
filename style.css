@@ -13,4 +13,14 @@ body {
 .h1 {
     color: white; font-weight: bold;
     text-align: center;
+    font-size: 40px;
+}
+
+block {
+    width: 18px;
+    height: 72px;
+    padding: 10px;
+    color: orange;
+    border: 5px solid white;
+    margin: 0;
 }
