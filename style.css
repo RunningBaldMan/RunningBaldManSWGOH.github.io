@@ -78,8 +78,8 @@ h2 {
 }
 
 .column img {
-    width: 150px;   /* smaller width */
-    height: auto;   /* maintain aspect ratio */
+    width: 150px;   
+    height: auto;   
     border: 2px solid white;
     border-radius: 10px;
 }
@@ -101,9 +101,9 @@ h2 {
     text-align: center;
 }
 
-bottom-right-avatar h2 {
+.bottom-right-avatar h2 {
     font-size: 16px;
-    margin: 5px 9;
+    margin: 5px 9px;
 }
 
 .avatar {
@@ -111,6 +111,6 @@ bottom-right-avatar h2 {
     height: auto;
     border-radius: 8px;
     border: 2px solid white;
-    box-shadow: 0 0 6px rgba(255, 255, 0.2);
+    box-shadow: 0 0 6px rgba(255, 255, 255, 0.2);
 }
 
