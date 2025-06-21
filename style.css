@@ -7,20 +7,17 @@ body {
     padding: 0;
 }
 
-
 h1 {
     text-align: center;
     font-size: 40px;
     margin-top: 20px;
 }
 
-
 .container {
     text-align: center;
     font-size: 18px;
     margin: 10px 0 30px;
 }
-
 
 .image-layout {
     display: flex;
@@ -35,31 +32,44 @@ h1 {
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 30px;
+    gap: 20px;
     flex-shrink: 0;
 }
 
-
 .column {
-    display: grid;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     text-align: center;
-    max-width: 300px;
+    width: 150px;
 }
 
+.colum img {
+    width: 120px;
+    height: 90px;
+    object-fit: cover;
+    border: 2px solid white;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(255 ,255, 255, 0.2);
+    transition: transform 0.3s ease;
+}
+
+.column img:hover {
+    transform: scale(1.05);
+}
+
+.columm audio {
+    margin-top: 5px;
+    width: 120px;
+}
 
 .song-title {
-    background-color: rgba(0, 0, 0, 0.8);
-    color: white;
-    font-size: 18px;
-    padding: 10px 15px;
-    border-radius: 8px;
-    margin-top: 10px;
-    width: fit-content;
-    margin-left: auto;
-    margin-right: auto;
-    box-shadow: 0 0 10px rgba(255, 255, 255, 0.3);
+  font-size: 14px;
+  padding: 6px 10px;
+  margin-top: 5px;
+  border-radius: 6px;
+  box-shadow: 0 0 6px rgba(255, 255, 255, 0.3);
 }
-
 
 .column img {
     width: 150px;   /* smaller width */
