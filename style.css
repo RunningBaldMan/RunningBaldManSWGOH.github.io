@@ -33,6 +33,14 @@ h2 {
     padding: 40px;
 }
 
+/*Left column text*/
+.left-column-text {
+    text-align: center;
+    color: red;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
 /*Left column pics*/
 .left-column {
     display: flex;
