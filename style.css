@@ -30,7 +30,7 @@ h1 {
     padding: 40px;
 }
 
-/*Bottom row pics*/
+/*Left column pics*/
 .left-column {
     display: flex;
     flex-direction: column;
