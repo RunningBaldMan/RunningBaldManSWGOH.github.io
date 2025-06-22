@@ -31,6 +31,7 @@ h2 {
     align-items:flex-start;
     gap: 60px;
     padding: 40px;
+    flex-wrap: wrap;
 }
 
 /*Left column text*/
@@ -153,7 +154,7 @@ h2 {
     width: 150px;
 }
 
-.colum img {
+.column img {
     width: 120px;
     height: 90px;
     object-fit: cover;
@@ -199,22 +200,40 @@ h2 {
 }
 
 @media (max-width: 600px)  {
-
-    .wrapper-main {
-        width: 100%;  
+    .image-layout,
+    .content-right-wrapper {
+        flex-direction: column;
+        gap: 20px;
+        padding: 10px;
     }
 
+    .column {
+        width: 100%;
+    }
 }
 
+@media (max-width: 600px) {
+    .bottom-right-avatar {
+        position: static;
+        margin-top: 20px;
+    }
+}
+    
 @media (min-width: 601px)  {
-
     .wrapper-main {
      width: 100%;  
     }
     
 }
 
-@media (maxx-width: 768px)  {
+@media (max-width: 768px)  {
+    .wrapper-main {
+        width: 100%;  
+    }
+    
+}
+
+@media (max-width: 920px)  {
 
     .wrapper-main {
         width: 100%;  
@@ -222,15 +241,7 @@ h2 {
     
 }
 
-@media (maxx-width: 920px)  {
-
-    .wrapper-main {
-        width: 100%;  
-    }
-    
-}
-
-@media (maxx-width: 1200px)  {
+@media (max-width: 1200px)  {
 
     .wrapper-main {
         width: 100%;  
