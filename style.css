@@ -251,7 +251,6 @@ h2 {
 
 /*For tablets*/
 @media only screen and (max-width:800px) {
-  /* For tablets: */
   .main {
     width: 80%;
     padding: 0;
@@ -263,7 +262,6 @@ h2 {
 
 /*For mobile*/
 @media only screen and (max-width:500px) {
-  /* For mobile phones: */
   .menu, .main, .right {
     width: 100%;
   }
