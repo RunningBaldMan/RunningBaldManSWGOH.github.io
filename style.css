@@ -193,29 +193,33 @@ h2 {
 /* < 600px, 601px, 768px, 920px, 1200px */
 
 .wrapper-main {
-    width: 1000px;
-    padding: 100px 0;
+    width: 100%px;
+    padding: 20px 0;
     margin: 0 auto;
 
+    box-sizing: border-box;
 }
 
 @media (max-width: 600px)  {
-    .image-layout,
-    .content-right-wrapper {
-        flex-direction: column;
-        gap: 20px;
-        padding: 10px;
+    h1 {
+        font-size: 28px;
     }
 
-    .column {
-        width: 100%;
+    .left-column-text,
+    .right-column-text,
+    .container {
+        font-size: 14px;
     }
+
+    .song-title {
+        font-size: 12px;
+        }
 }
 
 @media (max-width: 600px) {
     .bottom-right-avatar {
-        position: static;
-        margin-top: 20px;
+    position: static;
+    margin-top: 20px;
     }
 }
     
@@ -265,4 +269,10 @@ h2 {
   .menu, .main, .right {
     width: 100%;
   }
+}
+
+/* prevend boty and htmo overflow */
+html,body {
+    max-width: 100%;
+    overflow-x: hidden;
 }
